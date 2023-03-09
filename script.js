@@ -16,20 +16,20 @@ quantidadeFeita = Number (prompt("Quantas series você ja fez?"));
 var resumo = quantidadeSeries - quantidadeFeita;
 
 if(quantidadeFeita == quantidadeSeries){
-    mostra(`<p>Você escolheu fazer ${quantidadeSeries} séries de ${exercicio}</p>`);
-    mostra(`<p>Restam ${resumo} series</p>`);
-    mostra(`<p>Você concluiu todas as séries !!!</p>`);
-    mostra(`<p>Parabens !!!</p>`);
+    mostra(`<h2>Você escolheu fazer ${quantidadeSeries} séries de ${exercicio}</h2>`);
+    mostra(`<h2>Restam ${resumo} series</h2>`);
+    mostra(`<h2>Você concluiu todas as séries !!!</h2>`);
+    mostra(`<h2>Parabens !!!</h2>`);
 }else{
     if(quantidadeFeita > quantidadeSeries){
-        mostra(`<p>Você escolheu fazer ${quantidadeSeries} séries de ${exercicio}</p>`);
-        mostra(`<p>Você fez ${quantidadeFeita} series !!!</p>`);
-        mostra(`<p>Você fez além da sua meta !!!</p>`);
-        mostra(`<p>Parabens !!!</p>`);
+        mostra(`<h2>Você escolheu fazer ${quantidadeSeries} séries de ${exercicio}</h2>`);
+        mostra(`<h2>Você fez ${quantidadeFeita} series !!!</h2>`);
+        mostra(`<h2>Você fez além da sua meta !!!</h2>`);
+        mostra(`<h2>Parabens !!!</h2>`);
     }else{
-        mostra(`<p>Até o momento você fez ${quantidadeFeita} series</p>`);
-        mostra(`<p>Restam ${resumo} series</p>`);
-        mostra(`<p>Força! Voce consegue !</p>`);
+        mostra(`<h2>Até o momento você fez ${quantidadeFeita} series</h2>`);
+        mostra(`<h2>Restam ${resumo} series</h2>`);
+        mostra(`<h2>Força! Voce consegue !</h2>`);
     }
 }
 
